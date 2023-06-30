@@ -1,0 +1,16 @@
+
+  {
+    "name": "randa-soulmatic-sostice",
+    "version": "1.0.0",
+    "scripts": {
+      "build": "npm run setup:server",
+      "setup:app": "npm run setup:server && npm run setup:client",
+      "setup:client": "cd randa-soulmatic-sostice.client && npm i",
+      "setup:server": "cd randa-soulmatic-sostice && npm i",
+      "start": "node randa-soulmatic-sostice/index.js"
+    },
+    "engines": {
+      "node": "^18.12.1"
+    }
+  }
+  
